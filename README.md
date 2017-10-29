@@ -89,7 +89,6 @@ After applying the augmentation to the dataset the final distribution is the fol
 ![alt text][image8]
 
 ### Design and Test a Model Architecture
-
 #### 1. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My final model consisted of the following layers:

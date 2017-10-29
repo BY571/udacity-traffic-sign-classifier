@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 [image10]: ./Documentation/my_images.png "My Images"
 [image11]: ./Documentation/my_pre.png "Preprocessed"
 [image12]: ./Documentation/pred.png "Predictions"
-[image13]: ./Documentation/top3.png "Top 3 Predictions"
+[image13]: ./Documentation/top5.png "Top 5 Predictions"
 [image14]: ./Documentation/optimum1.png "Valid Acc"
 
 ## Rubric Points
@@ -117,11 +117,11 @@ To train the model, I used an batch size of 190 an trained 100 epochs. For the l
 
 My final model results were:
 * training set accuracy of 100%
-* validation set accuracy of 99.4% 
+* validation set accuracy of 99.3% 
 ![alt text][image14]
 
 #### Test set Accuracy:
-* test set accuracy of 96.7%
+* test set accuracy of 96.6%
 
 
 If an iterative approach was chosen:

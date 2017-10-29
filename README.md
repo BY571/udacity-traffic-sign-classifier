@@ -162,6 +162,6 @@ The model was able to correctly guess 6 of the 6 traffic signs, which gives an a
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. 
 
 Subsequent you can see the probability upon what my model predicted the correct traffic sign.
-You can see that for each of the six signs my model has a 100% sureness of predicting the right traffic sign.
+You can see that for 5 of the six signs my model has a 100% sureness of predicting the right traffic sign. Only for the Speed limit (30km/h) it has a sureness of ~ 70%
 ![alt text][image13]
 

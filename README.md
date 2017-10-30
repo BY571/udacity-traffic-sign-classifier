@@ -76,11 +76,16 @@ Converting the images to grayscale on its own makes it easier to train because t
 
 The augmentation is applied by 3 functions. [Useful cv2 functions](https://docs.opencv.org/trunk/da/d6e/tutorial_py_geometric_transformations.html)
 
-1. random_translate 
+1. random_translate
+
 ![alt text][image4]
+
 2. random_warp
+
 ![alt text][image5]
+
 3. random_scale
+
 ![alt text][image6]
 
 Some examples of the generated and original images:

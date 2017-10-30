@@ -61,12 +61,13 @@ And a bar chart showing how the data is divided in the different classes/labels:
 
 ![alt text][image2]
 
-... you can see that distribiution is not optimal. Therefor augmenting the Dataset to at least 1000 images each class (red broken line). So the CNN is has at least 1000 images for each class to train on.
+... you can see that distribiution is not optimal. Therefore augmenting the Dataset to at least 1000 images each class (red broken line). So the CNN is has at least 1000 images for each class to train on.
 
 ### Pre-processing the Data Set and Augmentation
 
 #### 1. Pre-process
-The Preprocessing was done by converting the images to grayscale an normalize them. 
+The Preprocessing was done by converting the images to grayscale an normalize them.
+Converting the images to grayscale on its own makes it easier to train because the depth of the images decreases from 3 to 1 (lower computational costs). By normalize the images, training is much easier because of a smaller distribution by the image data. 
 
 ![alt text][image3]
 

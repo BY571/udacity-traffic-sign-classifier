@@ -144,6 +144,8 @@ Here are six German traffic signs that I found on the web:
 
 ![alt text][image10] 
 
+Every image is pretty clean and not covert by anything or has a difficult perspective, thus makes it very easy to the model to classify each image and it gently should get an accuracy on those images of 100%. So let's check if the model can stick to our forecast. But first...
+
 Preprocessing my test images:
 
 ![alt text][image11] 
@@ -163,7 +165,7 @@ Here are the results of the prediction:
 | Speed limit (30km/h)	| Speed limit (30km/h)       (1)  				|
 | Slippery road     	| Slippery road              (23)  				|
 
-The model was able to correctly guess 6 of the 6 traffic signs, which gives an accuracy of 100%. 
+The model was able to correctly guess 6 of the 6 traffic signs, which gives an accuracy of 100%. Hence the model was able to satisfy our prediction to classify all images correctly.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. 
 

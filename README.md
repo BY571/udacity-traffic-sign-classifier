@@ -84,7 +84,7 @@ The augmentation is applied by 3 functions. [Useful cv2 functions](https://docs.
 
 ![alt text][image5]
 
-3. random_scale
+3. random_zoom
 
 ![alt text][image6]
 
